@@ -65,7 +65,7 @@ by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 
-=head1 Dependencies 
+=head1 DEPENDENCIES 
 
 L<Exporter>
 
