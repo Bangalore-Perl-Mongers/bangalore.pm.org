@@ -1,0 +1,39 @@
+# Avoid version control files.
+\bRCS\b
+\bCVS\b
+,v$
+\B\.svn\b
+\B\.
+
+# Avoid Makemaker generated and utility files.
+\bFormatters
+\bMakefile$
+\bblib
+\bMakeMaker-\d
+\bpm_to_blib$
+\bblibdirs$
+^MANIFEST\.SKIP$
+^mojomojo\.db$
+^mojomojo_local\.conf$
+
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\b_build
+
+# Avoid temp and backup files.
+~$
+\.tmp$
+\.old$
+\.bak$
+\#$
+\b\.#
+\bcache
+\bindex
+\buploads
+
+\bdb/oracle
+\bt/var/mojomojo.db
+
+# Skip development tools
+lib\/Locale\/Maketext\/Extract\/Plugin\/FormFu.pm
+script\/po2json\.pl
