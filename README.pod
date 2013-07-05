@@ -1,0 +1,13 @@
+==head1 NAME
+Source code of Bangalore.pm.org website
+
+==head1 About
+Here's the source code of Bangalore.pm.org website. A website for Bangalore Perl Mongers. It's built using mojomojo (http://mojomojo.org/)
+
+==head1 Installation
+See INSTALL or lib/MojoMojo/Installation.pod
+
+After Installation: Run script/mojomojo_server.pl to test the application.
+
+==head1 License
+This is free software. You can redistribute it and/or modify it under the same terms as perl itself.
